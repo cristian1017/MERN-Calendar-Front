@@ -27,21 +27,17 @@ export const LoginScreen = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        
         dispatch(startLogin( lEmail, lPassword ));
 
     }
 
     const handleRegister = (e) => {
         e.preventDefault();
-        
         if(rPassword !== rPassword2){
             Swal.fire('Error', 'Las contraseñas deben de ser iguales', 'error')
         }
-        dispatch(startRegister( rName, rEmail, rPassword ))
-        //dispatch(startLogin( lEmail, lPassword ));
-
-    }
+        dispatch(startRegister( rEmail, rPassword, rName ));
+     }
 
     return (
         <div className="container login-container">
