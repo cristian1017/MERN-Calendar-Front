@@ -1,21 +1,21 @@
 # Proyecto Calendar APP
 
 <p align="left">
-  <img height="250" width="100%" src="./login.png" />
+  <img height="300" width="100%" src="./login.png" />
 </p>
 
 
 <p align="left">
-  <img height="250" width="100%" src="./homeCalendar.png" />
+  <img height="300" width="100%" src="./homeCalendar.png" />
 </p>
 
 
 <p align="left">
-  <img height="250" width="100%" src="./createEvento.png" />
+  <img height="300" width="100%" src="./createEvento.png" />
 </p>
 
 <p align="left">
-  <img height="250" width="100%" src="./editarEvento.png" />
+  <img height="300" width="100%" src="./editarEvento.png" />
 </p>
 
 #### Tecnologías necesarias:
